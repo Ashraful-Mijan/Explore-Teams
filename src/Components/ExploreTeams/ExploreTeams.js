@@ -13,10 +13,8 @@ const ExploreTeams = () => {
             .then(data => setTeams(data.teams))
     }, [])
 
-    // console.log(teams);
     return (
         <>
-        {/* <Slides /> */}
         <Banner />
         <section className='bg-dark py-4'>
             <div className="container">

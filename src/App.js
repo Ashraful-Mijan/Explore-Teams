@@ -21,6 +21,10 @@ function App() {
           <ExploreTeams />
           <Footer />
         </Route>
+        <Route path='/home'>
+          <ExploreTeams />
+          <Footer />
+        </Route>
         <Route exact path='/'>
           <ExploreTeams />
           <Footer />

@@ -27,7 +27,7 @@ const TeamDetails = () => {
         strTeamBadge
     } = teamDetails;
 
-    const photo = (strGender === 'Male') ? male : female;
+    const photoGender = ( strGender === 'Female') ? female : male;
 
     return (
         <>
@@ -48,7 +48,7 @@ const TeamDetails = () => {
                             <img className='w-75 pe-5 pt-5' src={strTeamBadge} alt="team logo" />
                         </div>
                         <div className="col-md-5 ">
-                            <img src={photo} className='img-fluid' alt="" />
+                            <img src={photoGender} className='img-fluid' alt="" />
                         </div>
                     </div>
 

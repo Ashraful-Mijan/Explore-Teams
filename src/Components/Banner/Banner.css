@@ -1,11 +1,11 @@
 .bg {
     background-image:  url('../../img/img.png');
-    height: 40vh;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
 .paadding-top {
     padding-top: 100px;
 }
 .header-color {
     color: #e9ecef;
-    /* color: #031633; */
 }
