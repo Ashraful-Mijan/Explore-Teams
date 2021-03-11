@@ -3,9 +3,6 @@ import './Navbar.css'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    // const brand = {
-    //     color: 'red'
-    // }
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">

@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 import male from '../../img/male.png'
 import female from '../../img/female.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faFacebook, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faFlag, faFutbol, faMars, faClock } from '@fortawesome/free-solid-svg-icons'
 
 const TeamDetails = () => {
@@ -55,11 +54,6 @@ const TeamDetails = () => {
                     <p className='py-3 text-muted'>{strStadiumDescription}</p>
                     <p className='py-2 text-muted'>{strDescriptionEN}</p>
 
-                    {/* <div className='text-center'>
-                        <a href='https://web.facebook.com/' rel='noreferrer' target="_blank" className='text-danger px-2'><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
-                        <a href='https://www.youtube.com/' target="_blank" rel='noreferrer' className='text-danger px-2'><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
-                        <a href='https://twitter.com/?lang=en' target="_blank" rel='noreferrer' className='text-danger px-2'><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
-                    </div> */}
                 </div>
             </section>
             
