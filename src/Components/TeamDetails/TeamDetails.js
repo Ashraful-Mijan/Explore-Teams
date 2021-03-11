@@ -35,18 +35,18 @@ const TeamDetails = () => {
             </section>
             <section className='bg-dark'>
                 <div className="container py-4">
-                    <div className="row bg-primary py-4 rounded text-white">
-                        <div className="col-md-4 p-5">
+                    <div className="row bg-light py-4 rounded text-white">
+                        <div className="col-md-4 py-5 ps-5 pe-0 text-dark">
                             <h1>{strTeam}</h1>
                             <h5><FontAwesomeIcon icon={faClock} />     Founded: {intFormedYear}</h5>
                             <h5><FontAwesomeIcon icon={faFlag} />     Country: {strCountry}</h5>
                             <h5><FontAwesomeIcon icon={faFutbol} /> Sport Type: {strSport}</h5>
                             <h5><FontAwesomeIcon icon={faMars} /> Gender: {strGender}</h5>
                         </div>
-                        <div className="col-md-3 pe-5 ">
-                            <img className='w-75 pe-5 pt-5' src={strTeamBadge} alt="team logo" />
+                        <div className="col-md-4 p-3">
+                            <img className='w-75 p-5' src={strTeamBadge} alt="team logo" />
                         </div>
-                        <div className="col-md-5 ">
+                        <div className="col-md-4 py-5 pe-5">
                             <img src={photoGender} className='img-fluid' alt="" />
                         </div>
                     </div>
